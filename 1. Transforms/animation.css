@@ -1,0 +1,22 @@
+body{
+  background-color: gray;
+  text-align: center;
+}
+
+.wrapper{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+img{
+  /* transform: translateX(200px); */
+  /* transform: translateY(-50px); */
+  /* transform: scaleX(); */
+  /* transform: scaleY(0.5); */
+  /* transform: scale(0.5);          along x and y */
+  /* transform: scale(1.5, 2); */
+  /* transform: rotateX(30deg); */
+  /* transform: rotateY(130deg); */
+  transform: rotateZ(-90deg) translateY(200px) scale(0.5);
+}
